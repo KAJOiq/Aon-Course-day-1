@@ -32,7 +32,6 @@ namespace Aon1
                     continue;
                 }
 
-                // توليد OTP
                 Random randomOTP = new Random();
                 int otp = randomOTP.Next(100000, 999999); // نحتاج 6 مراتب فقط
                 string generatedOTP = otp.ToString();
